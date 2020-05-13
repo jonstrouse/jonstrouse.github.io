@@ -33,13 +33,3 @@ $(window).on("scroll",function(){
 });
 });
 
-
-// project card animation
-const arrow = document.getElementsByClassName("see-more");
-
-for(var i = 0; i < projectDiv.length; i ++ ) {
-    projectDiv[i].onclick = function() {
-      console.log(event);
-      arrow[i].style.transform = "rotate(180deg)";
-    };
-  };
