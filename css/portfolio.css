@@ -152,6 +152,7 @@ svg {
   margin: 2rem;
   border-radius: 50px;
   max-width: 200px;
+  margin: auto;
   padding: .35rem 0;
   color: #fff;
   font-weight: 400;
