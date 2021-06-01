@@ -150,9 +150,11 @@ svg {
 .project-details h5 {
   text-align: center;
   margin: 2rem;
-  border-radius: 10px;
+  border-radius: 50px;
+  max-width: 200px;
   padding: .35rem 0;
-  color: white;
+  color: #fff;
+  font-weight: 400;
   background: rgba(230, 138, 0, 1);
   transition: .2s ease-out;
 }
