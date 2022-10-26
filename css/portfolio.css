@@ -96,43 +96,57 @@ body {
   justify-content: center;
 }
 svg {
-  margin: 2rem auto;
-  width: 150px;
-  height: 150px;
-  fill: rgb(43,52,60);
+    margin: 2rem auto;
+    width: 120px;
+    height: 120px;
+    fill: rgb(43,52,60);
+/*    fill: #e68a00;*/
 }
 .icon-accent {
-  fill: #e68a00;
+    fill: #2eb8b8;
+    /*    fill: #e68a00;*/
 }
 .skill-div {
-  max-width: 80%;
+/*  max-width: 80%;*/
   margin: 0 auto;
 }
+
 .skills-heading {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 24px;
+}
+.skills-description {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
 }
 .skills-list {
-  list-style: none;
-  padding-left: 0;
+/*  list-style: circle;*/
+/*  padding-left: 0;*/
+  column-count: 2;
+  font-size: 18px;
 }
-.skills-list li {
-  color: rgb(43,52,60);
+.skills-list li::marker {
+    content: ">  ";
+    color: #2eb8b8;
+        /*  color: rgb(43,52,60);
   font-weight: bold;
   margin: .7rem auto;
   padding: .5rem 1rem;
   border-radius: 20px;
   width: 60%;
-  background: rgba(230, 138, 0, .5);
-}
+  background: rgba(230, 138, 0, .5);*/
+ }
+
 
 
 /* project section styles */
 #projects {
-  width: 100%;
-  margin: 0;
-  margin-right: 0;
-  padding: 20px 5rem;
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    padding: 20px 5rem;
 }
 #projects a {
   text-decoration: none;
@@ -148,18 +162,20 @@ svg {
   cursor: pointer;
 }
 .project-details h5 {
-  text-align: center;
-  margin: 2rem auto;
-  border-radius: 50px;
-  max-width: 200px;
-  padding: .35rem 0;
-  color: #fff;
-  font-weight: 400;
-  background: rgba(230, 138, 0, 1);
-  transition: .2s ease-out;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    max-width: 200px;
+    padding: .35rem 0;
+    color: #fff;
+    font-weight: 400;
+    background: rgba(230, 138, 0, 1);
+    transition: .3s ease-out;
 }
 .project-details h5:hover {
-  letter-spacing: .05rem;
+    box-shadow: 2px 3px 4px #d2d2d2;
+    transform: translateY(-2px);
+/*    background: #ffa31a;*/
 }
 .card img {
   padding: .4em;
